@@ -14,5 +14,6 @@
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "webpack": "^2.2.0-rc.0"
-  }
+  },
+  "dependencies": {}
 }

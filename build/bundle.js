@@ -70,7 +70,9 @@
 /* 0 */
 /***/ function(module, exports) {
 
-const sum = (a, b) => a + b;
+var sum = function sum(a, b) {
+  return a + b;
+};
 
 module.exports = sum;
 
@@ -78,9 +80,9 @@ module.exports = sum;
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-const sum = __webpack_require__(0);
+var sum = __webpack_require__(0);
 
-const total = sum(2,3);
+var total = sum(2, 3);
 console.log(total);
 
 /***/ }

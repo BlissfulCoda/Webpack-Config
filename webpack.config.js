@@ -7,11 +7,12 @@ const config = {
     filename: 'bundle.js'
   },
   module: {
-      rule: [
-          {
-              use: 'babel-loader'
-          }
-      ]
+    rules: [
+      {
+        use: 'babel-loader',
+        test: /\.js$/
+      }
+    ]
   }
 };
 
